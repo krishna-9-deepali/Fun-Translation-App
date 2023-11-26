@@ -19,6 +19,7 @@
 :root {
     --primarycolor: black;
     --max-width: 300px;
+    
     --blackcolor: black;
     --secondarycolor: #67e8f9;
     --bodycolor: #cffafe;
@@ -57,7 +58,7 @@ main {
     /* border: 1px solid var(--blackcolor); */
     /* padding: .2rem; */
     text-align: center;
-    /* height: ; */
+    height: 70vh;
 }
 
 #inputText {
