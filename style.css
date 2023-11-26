@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Kestrel W00 Script";
+    src: url("https://db.onlinewebfonts.com/t/6e95a6c1fb68e8c68e29f2ad702cbf9d.eot");
+    src: url("https://db.onlinewebfonts.com/t/6e95a6c1fb68e8c68e29f2ad702cbf9d.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/6e95a6c1fb68e8c68e29f2ad702cbf9d.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6e95a6c1fb68e8c68e29f2ad702cbf9d.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/6e95a6c1fb68e8c68e29f2ad702cbf9d.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6e95a6c1fb68e8c68e29f2ad702cbf9d.svg#Kestrel W00 Script")format("svg");
+}
+
+* {
+    font-family: "Kestrel W00 Script";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 100;
+}
+
+:root {
+    --primarycolor: black;
+    --max-width: 300px;
+    --blackcolor: black;
+    --secondarycolor: #67e8f9;
+    --bodycolor: #cffafe;
+}
+  
+body {
+    /* font-family: "Kestrel W00 Script"; */
+    background-image: linear-gradient(var(--secondarycolor), var(--bodycolor));
+    /* background-image:linear-gradient(red ,green); */
+    /* background-color: var(--secondarycolor); */
+    color: var(--primarycolor);
+    /* background-image: url("https://wallpapers.com/images/hd/minimalist-pirate-ship-yaokblub7mfrgcud.webp"); */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    height: 12vh;
+    padding: 3rem;
+    font-weight: 500;
+}
+
+nav img {
+    display: inline;
+    border-radius: 50%;
+    height: 10vh;
+    
+}
+
+main {
+    max-width: var(--max-width);
+    margin: auto;
+    /* border: 1px solid var(--blackcolor); */
+    /* padding: .2rem; */
+    text-align: center;
+    /* height: ; */
+}
+
+#inputText {
+    display: block;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 15vh;
+    /* margin: 1rem 0rem; */
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-weight: 100;
+    /* font-family: "Bonbon Bold W00 Regular"; */
+}
+
+#inputText::placeholder{
+    font-weight: lighter;
+}
+#btnTranslation {
+    background-color: transparent;
+    color: var(--primarycolor);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    font-size: medium;
+    font-weight: 500;
+
+    /* font-family: "Bonbon Bold W00 Regular"; */
+}
+
+#btnTranslation:hover {
+    background-color: var(--blackcolor);
+    color: var(--secondarycolor);
+}
+
+.outputText {
+    border: 1px solid black;
+    width: 100%;
+    min-height: 10vh;
+    height: 15vh;
+    max-height: 15vh;
+    margin: 1rem 0rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    text-align: left;
+    padding: 1rem;
+    overflow: scroll;
+    font-weight: 100;
+}
+section{
+    font-weight: 100;
+}
